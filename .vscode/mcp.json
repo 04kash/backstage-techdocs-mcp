@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "backstage-tehdocs-mcp-server": {
+            "type": "stdio",
+            "command": "mcp",
+            "args": [
+                "run",
+                "repos/backstage-techdocs-mcp/backstage-techdocs-mcp-server/server.py"
+            ]
+        }
+    }
+}
